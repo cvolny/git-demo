@@ -21,6 +21,11 @@ def factorial(x):
 
 
 if "__main__" == __name__:
+    """
+    Main Program
+
+    Loop until the user enters an integer to calculate the factorial of, then print and exit.
+    """
     while True:
         try:
             m = raw_input("Enter an integer: ")
